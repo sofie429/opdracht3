@@ -1,0 +1,20 @@
+<%- include('header'); -%>
+
+<article>
+  <h1><%=post.title %></h1>
+  <date><%=post.date %></date>
+  <p><%=post.content %></p>
+  <address class="author"><%=post.author %></address>
+
+
+  <img src=<%=post.imageURL %> alt=“Afbeelding met iets op” class=“blog-image”>
+  <img src=<%=post.imageEXT %> alt=“Afbeelding met iets op” class=“blog-image”>
+  <img src=<%=post.imageEXT2 %> alt=“Afbeelding met iets op” class=“blog-image”>
+  <img src=<%=post.imageEXT3 %> alt=“Afbeelding met iets op” class=“blog-image”>
+
+
+
+  </article>
+
+
+<%- include('footer'); -%>

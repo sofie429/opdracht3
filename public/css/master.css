@@ -1,0 +1,227 @@
+body {
+  background-color: white
+}
+
+.portrait{
+    width: 42vh;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.welcome{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: grey;
+  padding-top: 5rem;
+  z-index: -10;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin-right: 2rem;
+  font-weight: 900;
+  margin-bottom: .5rem;
+  display: inline;
+
+}
+
+nav ul{
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+   text-align: center;
+   padding-bottom: 3rem;
+   background-color: #BD2632;
+
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+nav ul li a:hover{
+  color: grey;
+}
+
+nav ul li h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  color: grey;
+  text-align: center;
+  font-size: 140px;
+  margin-left: -4REM;
+  margin-top: -3rem;
+
+}
+
+nav ul li h4{
+  font-family: 'Oswald', sans-serif;
+  margin-left: -3rem;
+  margin-top: -3rem;
+  margin-bottom: 3rem;
+  color: grey;
+}
+
+.buttons{
+  margin-left: 2.3rem;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  margin-bottom: 5px;
+  background: lightgrey;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #BD2632;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: center;
+  border-radius: 0px;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+article{
+  margin-bottom: 2rem;
+  text-align: center;
+
+
+}
+
+article h1{
+  color: #BD2632;
+  font-size: 50px;
+  padding-bottom: 2rem;
+  font-family: 'Slabo 27px', serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+article img{
+  width: 42vh;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+article a{
+  color: black;
+  text-decoration: underline;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+article a:hover{
+  color: #BD2632;
+}
+
+article p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+date{
+  font-size: 12px;
+}
+
+.bloggrid{
+  color: black;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+
+h3{
+  text-align: center;
+  padding-top: 2rem;
+
+  font-family: 'Slabo 27px', serif;
+}
+
+p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 1rem;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #BD2632;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+.form {
+  width: 20Rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message{
+  height: 20rem;
+  background-color: lightgrey;
+  color: white;
+}
+
+
+footer{
+  text-align: center;
+  padding-top: 3rem;
+  height: 100px;
+  color: #BD2632;
+}

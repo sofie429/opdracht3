@@ -1,0 +1,39 @@
+<%- include("header"); -%>
+
+    <h3>Who are we</h3>
+
+    <p>We are a controversial studio that focuses mainly on contemporary works that can change something about society. We always work with other artists for a number of months. His or her works can then be seen in our hall.</p>
+
+    <h3>Why?</h3>
+
+    <p>We want to show people the bad things of the world in the form of art. We don't want to stand in the way of its need. We hope by showing the works of art that something will change. </p>
+
+    <h3>Contact us</h3>
+      <p>If there are things we can help you with, please let us know:</p>
+
+  <div class="form">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="message">Message</label>
+      <input type="text" id="message" name="mes" placeholder="Let me know how we can help you...">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="belgium">Belgium</option>
+        <option value="netherlands">The Netherlands</option>
+        <option value="france">France</option>
+        <option value="other">Other</option>
+      </select>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+
+
+<%- include("footer"); -%>

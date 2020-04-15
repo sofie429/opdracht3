@@ -1,0 +1,15 @@
+{
+  "name": "oefening-1",
+  "version": "1.0.0",
+  "description": "This is an excercise for school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maes Sven",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
