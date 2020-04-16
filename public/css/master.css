@@ -16,6 +16,10 @@ body {
   z-index: -10;
 }
 
+.begintekst{
+  text-align: center;
+}
+
 nav ul li{
   list-style-type: none;
   margin-right: 2rem;
